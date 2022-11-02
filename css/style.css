@@ -17,3 +17,13 @@
     justify-content: center;
     align-items: center;
 }
+.sm-sec {
+    max-width: 75%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light-grey {
+    color: #767679;
+}
