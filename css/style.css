@@ -7,3 +7,8 @@
 .lobster-font {
     font-family: 'Lobster', cursive;
 }
+
+.jumbotron {
+    height: 65vh;
+    max-width: 95%;
+}
