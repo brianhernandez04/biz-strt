@@ -48,9 +48,19 @@
         width: 95vw;
     }
 }
+
 @media all and (max-width:992px) {
     .tt-cent {
         text-align: center;
     }
+}
+
+.back-img-2 {
+    background-image: url(../img/tat-p-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55vw;
+    height: 60vh;
 }
 
