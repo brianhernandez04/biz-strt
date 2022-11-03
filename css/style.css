@@ -12,11 +12,13 @@
     height: 70vh;
     max-width: 90%;
 }
+
 .jumbo-f {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .sm-sec {
     max-width: 75%;
     height: 30vh;
@@ -24,6 +26,31 @@
     justify-content: center;
     align-items: center;
 }
+
 .light-grey {
     color: #767679;
 }
+
+.back-img-1 {
+    background-image: url(../img/tat-p-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55vw;
+    height: 60vh;
+}
+
+@media all and (min-width: 280px) and (max-width: 980px) {
+    .back-img-1 {
+        background-image: url(../img/tat-p-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 95vw;
+    }
+}
+@media all and (max-width:992px) {
+    .tt-cent {
+        text-align: center;
+    }
+}
+
