@@ -112,3 +112,26 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.f-hro {
+    background-image: url(../img/first-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+}
+
+@media all and (min-width: 280px) and (max-width: 980px) {
+    .f-hro {
+        background-image: url(../img/first-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 95vw;
+    }
+}
+
+.bk:hover {
+    background-size: 85%;
+    
+}
