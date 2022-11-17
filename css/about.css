@@ -22,3 +22,11 @@
     height: 70vh;
     max-width: 90%;
 }
+
+.sm-sec-2 {
+    max-width: 65%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
