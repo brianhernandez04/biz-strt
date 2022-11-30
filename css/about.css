@@ -30,3 +30,61 @@
     justify-content: center;
     align-items: center;
 }
+
+.jumb-2 {
+    height: 55vh;
+    max-width: 90%;
+}
+
+.ig-bg{
+    background-image: url(../img/ig-tat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sc-bg{
+    background-image: url(../img/sc-tat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tt-bg{
+    background-image: url(../img/tiktok-tat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tw-bg{
+    background-image: url(../img/twit-tat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yt-bg{
+    background-image: url(../img/yt-tat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.f-hro {
+    background-image: url(../img/first-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+}
+
+@media all and (min-width: 280px) and (max-width: 980px) {
+    .f-hro {
+        background-image: url(../img/first-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 95vw;
+    }
+}
